@@ -2,6 +2,9 @@
 
 [![Build Status](https://travis-ci.org/gentooboontoo/js-quantities.png)](https://travis-ci.org/gentooboontoo/js-quantities)
 
+This package is a Meteor wrapper around gentooboontoo's
+[js-quantities](https://github.com/gentooboontoo/js-quantities) project.
+
 JS-quantities is originally a JavaScript port of Kevin Olbrich's library Ruby
 Units (http://github.com/olbrich/ruby-units).
 
@@ -12,6 +15,12 @@ JS-quantities is defined as an UMD module and can be used with AMD, Node
 and within browsers.
 
 ## Installing JS-quantities
+
+### Meteor
+
+    meteor add orlade:js-quantities
+    
+`Qty` will be exported to the global scope.
 
 ### Browser
 
